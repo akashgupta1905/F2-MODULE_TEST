@@ -130,10 +130,12 @@ function toggleMenu() {
 
   if (sideNav.style.width === "50%") {
     sideNav.style.width = "0";
-    menuBtn.innerHTML = "☰ Menu";
+    menuBtn.innerHTML = "☰";
   } else {
     sideNav.style.width = "50%";
-    closeBtn.innerHTML = "&times; Close";
+    closeBtn.innerHTML = `<span class="material-symbols-outlined">
+                              close
+                          </span>`;
   }
 }
 
