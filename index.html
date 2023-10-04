@@ -18,14 +18,16 @@
                 <div class="img-sec">
                     <div class="first-img">
                         <label for="click" class="menu-btn">
-                            <img id="menuBtn" onclick="toggleMenu()" src="./images/menu.png" alt="no-image">
+                            <button id="menuBtn" onclick="toggleMenu()">☰</button>
                         </label>
                         <div id="sideNav" class="sidenav">
-                            <button id="close" onclick="toggleMenu()">Close</button>
                             <div class="component">
                                 <div class="row">
-                                    <img src="./images/Cookpal 1.png" alt="">
-                                    <img src="./images/profile.svg" alt="no-image">
+                                    <img src="./images/Cookpal 1.png" alt="no-image">
+                                    <div class="col-1">
+                                        <img src="./images/profile.svg" alt="no-image">
+                                        <button id="close" onclick="toggleMenu()">Close</button>
+                                    </div>
                                 </div>
                             </div>
                             <div class="links">
